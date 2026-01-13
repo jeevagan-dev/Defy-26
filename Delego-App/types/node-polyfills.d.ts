@@ -1,0 +1,12 @@
+declare module "vm-browserify";
+declare module "crypto-browserify";
+declare module "stream-browserify";
+declare module "events";
+declare module "util";
+declare module "assert";
+declare module "randombytes";
+declare module "inherits";
+declare module "safe-buffer";
+declare module "to-buffer";
+declare module "readable-stream";
+declare module "string_decoder";

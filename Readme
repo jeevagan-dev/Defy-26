@@ -1,0 +1,67 @@
+# 🚀 Delego Wallet — Smart Account Wallet for Web3
+
+Delego Wallet is a next-generation **smart wallet (account abstraction wallet)** designed for seamless, gasless, and secure Web3 transactions. It removes the complexity of private keys, gas fees, and manual transaction handling — making crypto as easy as using UPI.
+
+Built for hackathons, startups, and real-world adoption.
+
+Deployed contract address = 0xc93F0e39B32b5a28af4C00A6ef63E0cd0705c099 (both base and eth sepolia)
+
+---
+
+## 🔥 Why Delego Wallet?
+
+Traditional wallets require:
+- Managing private keys
+- Paying gas fees
+- Signing every transaction manually
+
+Delego Wallet solves this with:
+- Smart Accounts (ERC-4337)
+- Gasless transactions
+- Session-based authorization
+- Programmable wallet logic
+
+---
+
+## ✨ Features
+
+✅ Smart Contract Wallet (Account Abstraction)  
+✅ One-click Wallet Creation  
+✅ Spending Limits  
+✅ Multi-chain support  
+✅ dApp Connect (like MetaMask)  
+
+
+---
+
+## 🔐 Smart Wallet Concept
+
+Delego Wallet uses **Smart Accounts** instead of EOAs.
+
+### Benefits:
+- No private key management
+- Recoverable wallet
+- Programmable security
+- Automated transactions
+
+### Run:
+
+# Clone repository
+git clone https://github.com/jeevagan-dev/defy-26.git
+cd defy-26
+
+# Install smart contract dependencies
+cd smart-contract
+npm install
+
+# Compile & deploy smart contracts using Hardhat
+npx hardhat compile
+npx hardhat run scripts/deploy.js --network sepolia
+
+# Install expo app dependencies
+cd ../app
+npm install
+
+# Run expo app
+npm run dev
+
